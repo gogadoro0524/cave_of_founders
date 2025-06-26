@@ -12,7 +12,7 @@ export default function Home() {
           <p>
             Cave of Founders is an innovative education technology company
             focused on language learning applications that unlock global
-            opportunities. We're currently building{" "}
+            opportunities. We&apos;re currently building{" "}
             <a href="https://www.gencall.app">Gencall</a>, a revolutionary
             language learning platform that connects learners with their
             potential for growth. Gencall is available now on{" "}
@@ -21,14 +21,14 @@ export default function Home() {
           <p>
             Cave of Founders draws inspiration from the ancient Korean legend of
             Dangun, where beings transform and evolve within the depths of a
-            mystical cave, emerging reborn as enlightened humans. We're building
-            our company on the conviction that the best transformations come
-            from dedicated teams with a shared passion for the Hongik-ingan
+            mystical cave, emerging reborn as enlightened humans. We&apos;re
+            building our company on the conviction that the best transformations
+            come from dedicated teams with a shared passion for the Hongik-ingan
             spirit - benefiting all humanity. Language learning is not just
             about communication; it opens doors to new worlds, connects us to
             diverse opportunities, and awakens the dormant potential within
-            ourselves. We're backed by a strong group of investors including{" "}
-            <a href="https://thrivecap.com/">Thrive Capital</a>,{" "}
+            ourselves. We&apos;re backed by a strong group of investors
+            including <a href="https://thrivecap.com/">Thrive Capital</a>,{" "}
             <a href="https://www.linkedin.com/in/dylanfield">Dylan Field</a>,{" "}
             <a href="https://www.scribble.vc/">Scribble Ventures</a>,{" "}
             <a href="https://www.boxgroup.com/">Box Group</a>,{" "}
@@ -43,8 +43,8 @@ export default function Home() {
           </p>
           <p className="team-member">Godo Lim, Co-Founder & CEO</p>
           <p>
-            If you're interested in joining our mission to light the torch of
-            knowledge for humanity, please email us at{" "}
+            If you&apos;re interested in joining our mission to light the torch
+            of knowledge for humanity, please email us at{" "}
             <a href="mailto:founders@gencall.app">founders@gencall.app</a>.
           </p>
         </div>
