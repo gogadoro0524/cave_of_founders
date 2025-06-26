@@ -13,10 +13,10 @@ export default function Home() {
             Cave of Founders is an innovative education technology company
             focused on language learning applications that unlock global
             opportunities. We&apos;re currently building{" "}
-            <a href="https://www.gencall.app">Gencall</a>, a revolutionary
+            <a href="https://rebrand.ly/0mh28ht">Gencall</a>, a revolutionary
             language learning platform that connects learners with their
             potential for growth. Gencall is available now on{" "}
-            <a href="https://www.gencall.app/download">iOS and Android</a>.
+            <a href="https://rebrand.ly/0mh28ht">iOS and Android</a>.
           </p>
           <p>
             Cave of Founders draws inspiration from the ancient Korean legend of
@@ -27,32 +27,30 @@ export default function Home() {
             spirit - benefiting all humanity. Language learning is not just
             about communication; it opens doors to new worlds, connects us to
             diverse opportunities, and awakens the dormant potential within
-            ourselves. We&apos;re backed by a strong group of investors
-            including <a href="https://thrivecap.com/">Thrive Capital</a>,{" "}
-            <a href="https://www.linkedin.com/in/dylanfield">Dylan Field</a>,{" "}
-            <a href="https://www.scribble.vc/">Scribble Ventures</a>,{" "}
-            <a href="https://www.boxgroup.com/">Box Group</a>,{" "}
-            <a href="https://imaginary.co/">Imaginary Ventures</a>,{" "}
-            <a href="https://www.coalitionoperators.com/">Coalition</a>,{" "}
-            <a href="https://linktr.ee/convictionvc">Conviction</a>,{" "}
-            <a href="https://www.wearecopper.us/">Copper</a>,{" "}
-            <a href="https://www.positivesumvc.com/">Positive Sum</a>, and a
-            group of angel investors who share our vision for illuminating the
-            world through education. We are remote-first with offices in New
-            York and San Francisco.
+            ourselves. We are remote-first with offices in New York and San
+            Francisco.
           </p>
-          <p className="team-member">Godo Lim, Co-Founder & CEO</p>
+          <p className="team-member">
+            Godo Lim, Co-Founder & CEO
+            <br />
+            Junseo Oh, Co-Founder & CTO
+            <br />
+            Hyerin Jang, Co-Founder & Designer
+          </p>
           <p>
             If you&apos;re interested in joining our mission to light the torch
             of knowledge for humanity, please email us at{" "}
-            <a href="mailto:founders@gencall.app">founders@gencall.app</a>.
+            <a href="mailto:caveoffounders@gmail.com">
+              caveoffounders@gmail.com
+            </a>
+            .
           </p>
         </div>
       </div>
       <footer className="footer">
         <div className="footer-content">
           <div className="footer-links">
-            <a href="https://www.gencall.app">GENCALL</a>
+            <a href="https://rebrand.ly/0mh28ht">GENCALL</a>
             <a href="/gencall/privacy">PRIVACY</a>
             <a href="/gencall/terms">TERMS</a>
             <a href="https://twitter.com/gencallapp">TWITTER</a>
