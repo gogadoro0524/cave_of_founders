@@ -1,102 +1,68 @@
+import caveImage from "@/assets/cave.png";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className="container">
+      <div className="main-content">
+        <div className="header">
+          <Image src={caveImage} alt="Cave" width={80} height={80} priority />
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+        <div className="content">
+          <p>
+            Cave of Founders is an innovative education technology company
+            focused on language learning applications that unlock global
+            opportunities. We're currently building{" "}
+            <a href="https://www.gencall.app">Gencall</a>, a revolutionary
+            language learning platform that connects learners with their
+            potential for growth. Gencall is available now on{" "}
+            <a href="https://www.gencall.app/download">iOS and Android</a>.
+          </p>
+          <p>
+            Cave of Founders draws inspiration from the ancient Korean legend of
+            Dangun, where beings transform and evolve within the depths of a
+            mystical cave, emerging reborn as enlightened humans. We're building
+            our company on the conviction that the best transformations come
+            from dedicated teams with a shared passion for the Hongik-ingan
+            spirit - benefiting all humanity. Language learning is not just
+            about communication; it opens doors to new worlds, connects us to
+            diverse opportunities, and awakens the dormant potential within
+            ourselves. We're backed by a strong group of investors including{" "}
+            <a href="https://thrivecap.com/">Thrive Capital</a>,{" "}
+            <a href="https://www.linkedin.com/in/dylanfield">Dylan Field</a>,{" "}
+            <a href="https://www.scribble.vc/">Scribble Ventures</a>,{" "}
+            <a href="https://www.boxgroup.com/">Box Group</a>,{" "}
+            <a href="https://imaginary.co/">Imaginary Ventures</a>,{" "}
+            <a href="https://www.coalitionoperators.com/">Coalition</a>,{" "}
+            <a href="https://linktr.ee/convictionvc">Conviction</a>,{" "}
+            <a href="https://www.wearecopper.us/">Copper</a>,{" "}
+            <a href="https://www.positivesumvc.com/">Positive Sum</a>, and a
+            group of angel investors who share our vision for illuminating the
+            world through education. We are remote-first with offices in New
+            York and San Francisco.
+          </p>
+          <p className="team-member">Godo Lim, Co-Founder & CEO</p>
+          <p>
+            If you're interested in joining our mission to light the torch of
+            knowledge for humanity, please email us at{" "}
+            <a href="mailto:founders@gencall.app">founders@gencall.app</a>.
+          </p>
+        </div>
+      </div>
+      <footer className="footer">
+        <div className="footer-content">
+          <div className="footer-links">
+            <a href="https://www.gencall.app">GENCALL</a>
+            <a href="/gencall/privacy">PRIVACY</a>
+            <a href="/gencall/terms">TERMS</a>
+            <a href="https://twitter.com/gencallapp">TWITTER</a>
+            <a href="https://www.instagram.com/gencallapp/">INSTAGRAM</a>
+          </div>
+          <p className="footer-copyright">© 2025 CAVE OF FOUNDERS, INC.</p>
+          <p className="footer-address">
+            2261 MARKET STREET #4958, SAN FRANCISCO, CA
+          </p>
+        </div>
       </footer>
     </div>
   );
