@@ -31,7 +31,9 @@ export default function Home() {
             Francisco.
           </p>
           <p className="team-member">
-            Gon Lim, Co-Founder & CEO
+            Godo Lim, Co-Founder & CEO
+            <br />
+            Sumin Kim, Co-Founder & Creator
             <br />
             Junseo Oh, Co-Founder & CTO
             <br />
