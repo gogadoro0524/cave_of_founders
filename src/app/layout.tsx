@@ -17,7 +17,10 @@ export const metadata: Metadata = {
   description:
     "Cave of Founders is an innovative education technology company focused on language learning applications that unlock global opportunities.",
   icons: {
-    icon: "/cave-favicon.png",
+    icon: [
+      { url: "/icon.png", sizes: "any" },
+      { url: "/cave-favicon.png", sizes: "any" },
+    ],
     shortcut: "/cave-favicon.png",
     apple: "/cave-favicon.png",
   },
@@ -30,6 +33,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/cave-favicon.png" />
+        <link rel="shortcut icon" href="/cave-favicon.png" />
+        <link rel="apple-touch-icon" href="/cave-favicon.png" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
